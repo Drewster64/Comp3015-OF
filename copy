@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/slate/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+<body class="slate">
+    
+    <div class="container-lg">
+
+        
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid bg-success">
+                <a class="navbar-brand" href="#">
+                    <img src="https://e7.pngegg.com/pngimages/514/71/png-clipart-computer-icons-triforce-emoticon-the-legend-of-zelda-nintendo-the-legend-of-zelda-angle-triangle-thumbnail.png"  alt="Bootstrap" width="50" height="44">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#personajes">Personajes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#majora">Majora's Mask</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#historias">Historias</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        
+        
+
+    <section id="banner" class="p-5 bg-primary text-while text-center">
+        <h1 class="animate__animated animate__zoomInDown fw-bolder text-warning">The Legend of Zelda: Ocarina of Time</h1>
+        <div class="container">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://e1.pxfuel.com/desktop-wallpaper/394/205/desktop-wallpaper-legend-of-zelda-ocarina-of-time-long-the-legend-of-zelda-ocarina-of-time.jpg" alt="oot3d" class="d-block mx-auto img-fluid">
+                <div class="carousel-caption">
+                    <h3 class="text-center d-none d-md-block fw-bolder text-white">Hyrule</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.pinimg.com/originals/90/d9/08/90d9083fac45806139633432792a9ebf.jpg" alt="deku" class="d-block img-fluid mx-auto">
+                <div class="carousel-caption">
+                    <h3 class="text-center d-none d-md-block fw-bolder text-white">Great Deku Tree</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images6.alphacoders.com/531/531820.jpg" alt="linkzelda" class="d-block img-fluid mx-auto">
+                <div class="carousel-caption">
+                    <h3 class="text-center d-none d-md-block fw-bolder text-white">Link & Zelda</h3>
+                </div>
+              </div>
+            </div>
+        </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+     </section>
+
+     <section id="majora" class="p-5 bg-primary text-while text-center">
+        <h2 class="animate__animated animate__lightSpeedInLeft fw-bolder text-info">Majora's Mask</h2>
+        <p class="fw-bolder">
+              Majora'sMask es una secuela directa a Ocarina of Time, establecida en la línea temporal de Link niño. La secuela inicia con Link buscando a su amiga ada Navi en los bosques perdidos, esto lo lleva a encontrarse con skull kid quien posee la máscara de Majora, una máscara construida por tribus antiguas y cuya magia se alimenta de los deseos más oscuros del que la utilice. Link se encuentra con skull kid, este le roba su ocarina y lo hace llegar a la tierra de Termina. Al inicio conoceremos al vendedor de máscaras, dueño de la máscara de Majora que fue robada por Skull Kid, este personaje es muy misterioso y tétrico. Él nos pedirá que le devolvamos la máscara de Majora y nos enviara a Termina para lograrlo. Para este punto habremos sido transformado en un deku y tendremos que buscar la forma de volver a la normalidad, lo cual haremos después de obtener la ocarina y el vendedor de máscaras nos enseñe la canción de curación. Posteriormente veremos que para realizar la máscara que nos transformaría en deku, Majora le arrebató la vida al hijo del mayordomo del palacio deku. Las máscaras que nos darán las habilidades de transformarnos provienen de utilizar la canción de curación para sanar a aquellos que ya no están con vida o están a punto de morir. Majora es un juego más corto que Ocarina, posee 4 templos y el final. La principal mecánica del juego es el manejo del tiempo, puesto que tendrás 3 días para evitar que la luna se estrelle contra Termina. Esta entrega de la saga es quizá la más oscura hasta el momento, se dice que su historia principal se basa en las etapas del duelo: la negación, la ira, la negociación, la depresión y la aceptación. Cada uno de los personajes a los que tienes que ayudar para acceder a los templos representa una etapa del duelo. Aquí entra la teoría de que en realidad, Link muere en el bosque intentando buscar a Navi y por eso está en la etapa del duelo, teoría que se refuerza cuando en una de las entregas posteriores aparece el espíritu del Héroe del tiempo, o sea, Link. En Majora tendrás acceso a máscaras que te darán diferentes habilidades, algunas incluso te transformarán en diferentes razas como Zora o Goron.
+        </p>
+     </section>
+
+    </div>
+</body>
+</html>
