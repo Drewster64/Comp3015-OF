@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Account</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cerulean/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./form.js"></script>
+
+</head>
+<body>
+        <div class="container">
+            <div class="card p-2">
+                <div class="card-header bg-primary">
+                    <h3 class="text-center fw-bold text-dark">New User</h3>
+                </div>
+                <div class="card-body bg-dark">
+                    <form method="post" id="registrationForm">
+                        <div class="mb-3 row">
+                            <label class="form-label fw-bold text-white">Username</label>
+                            <input type="email" name="username" class="form-control" id="username" placeholder="donnydarko@hotmail.com">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold text-white">Password</label>
+                            <input type="password" name="password" id="password" class="form-control" placeholder=" new password">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold text-white">Confirm Password</label>
+                            <input type="password" name="password" id="Cpassword" class="form-control" placeholder=" confirm password">
+                        </div>
+                    </form>    
+                    <div class="card-footer text-end text-center bg-secondary p-2 rounded">
+                        <button type="submit" class="btn btn-warning fw-bold text-dark" id="upload">Submit</button>
+                    
+                    <div class="card-footer text-end text-center bg-secondary p-2 rounded">
+                        <button type="submit" class="btn btn-warning fw-bold text-dark""><a href="./login.html" class="text-info text-center p-2">Home</a></button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    
+</body>
+</html>

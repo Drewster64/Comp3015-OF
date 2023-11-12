@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cerulean/bootstrap.min.css">
+
+<body class="bg-secondary">
+
+    <div class="container">
+        <div class="card p-3">
+            <div class="card-header bg-primary">
+                <h3 class="text-center fw-bold ">Login Form</h3>
+            </div>
+            <div class="card-body bg-dark">
+                <form method="post">
+                    <div class="mb-3 row">
+                        <label class="form-label fw-bold text-white">Username</label>
+                        <input type="email" name="username" class="form-control" id="username" placeholder="Email: johndoe@domain.com">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold text-white">Password</label>
+                        <input type="password" name="password" id="password" class="form-control" placeholder="password">
+                    </div>
+                </form>    
+                    <div class="card-footer text-end">
+                        <button type="reset" class="btn btn-info">reset</button>
+                        <button type="submit" class="btn btn-info">login</button>
+                    </div> 
+            </div>
+            <div class="row">
+                <div class="col text-center fw-bold">
+                    <a href="./new.html" class="text-info text-center p-2">Register</a>
+                    <a href="#" class="text-info text-center p-2">Forgot Password</a>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
