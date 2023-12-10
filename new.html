@@ -12,34 +12,34 @@
 </head>
 <body>
         <div class="container">
+            <form method="post" id="registrationForm">
             <div class="card p-2">
                 <div class="card-header bg-primary">
                     <h3 class="text-center fw-bold text-dark">New User</h3>
                 </div>
                 <div class="card-body bg-dark">
-                    <form method="post" id="registrationForm">
                         <div class="mb-3 row">
                             <label class="form-label fw-bold text-white">Username</label>
-                            <input type="email" name="username" class="form-control" id="username" placeholder="donnydarko@hotmail.com">
+                            <input type="email" name="username" class="form-control" required id="username" placeholder="Donnydarko2815@hotmail.com" pattern="[A-Z]{1}a-z0-9%]{4-12}">
                         </div>
                         <div class="mb-3">
                             <label class="form-label fw-bold text-white">Password</label>
-                            <input type="password" name="password" id="password" class="form-control" placeholder=" new password">
+                            <input type="password" name="password" id="pass1" class="form-control" onclick="mostrarContrasena()" placeholder="new password" pattern="[A-Z-a-z-0-9-%]{4-12}" required>
                         </div>
                         <div class="mb-3">
                             <label class="form-label fw-bold text-white">Confirm Password</label>
-                            <input type="password" name="password" id="Cpassword" class="form-control" placeholder=" confirm password">
-                        </div>
-                    </form>    
+                            <input type="password" name="password" id="cpass" class="form-control" onclick="mostrarContrasena()" placeholder=" confirm password" pattern="[A-Z-a-z-0-9-%]{4-12}" required>
+                        </div>   
                     <div class="card-footer text-end text-center bg-secondary p-2 rounded">
                         <button type="submit" class="btn btn-warning fw-bold text-dark" id="upload">Submit</button>
                     
                     <div class="card-footer text-end text-center bg-secondary p-2 rounded">
-                        <button type="submit" class="btn btn-warning fw-bold text-dark""><a href="./login.html" class="text-info text-center p-2">Home</a></button>
+                        <button type="reset" class="btn btn-warning fw-bold text-dark" onclick="window.location.href='login.html'" class="text-info text-center p-2">Home</a></button>
                     </div>
                     </div>
                 </div>
             </div>
+            </form>
         </div> 
     
 </body>
