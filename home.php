@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Página de Inicio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/simplex/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    
     
     <?php
         require_once './app/views/home.php';
@@ -15,22 +18,22 @@
     ?>
 
 </head>
-<body class="bg-warning">
+<body class="bg-success">
     <div class="container">
         
         <header>
-            <h1>Bienvenido a Nuestra Aplicación</h1>
+            <h1 class="text-center">Bienvenido a Nuestra Aplicación</h1>
             <nav>
                 <ul>
-                    <li><a href=".">Ver Usuarios</a></li>
+                    <li><a href="." class="fw-bold text-white">Ver Usuarios</a></li>
                     <!-- Más enlaces de navegación según sea necesario -->
                 </ul>
                 <ul>
-                    <li><a href="./index.php?url=product/index">Ver Productos</a></li>
+                    <li><a href="./index.php?url=product/index" class="fw-bold text-white">>Ver Productos</a></li>
                     <!-- Más enlaces de navegación según sea necesario -->
                 </ul>
                 <ul>
-                    <li><a href="./index.php?url=supplier/index">Ver Suplidores</a></li>
+                    <li><a href="./index.php?url=supplier/index" class="fw-bold text-white">>Ver Suplidores</a></li>
                 </ul>
             </nav>
         </header>
