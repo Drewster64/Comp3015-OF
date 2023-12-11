@@ -40,7 +40,7 @@ class ProductController {
         // Cargar la vista del formulario de actualización
         $data['product'] = $this->productModel->read($id);
         $data['view'] = 'app/views/product/update.php';
-        include 'app/views/hzome.php';
+        include 'app/views/home.php';
 }
 
 
